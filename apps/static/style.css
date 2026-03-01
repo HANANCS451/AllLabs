@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: left;   /* تأكيد أنها يسار */
+}
+
+h2 {
+    color: darkred;
+    font-size: 28px;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+}
+
+hr {
+    width: 60%;
+    margin: 40px 0;   /* ← هذا هو التعديل */
+    border: none;
+    height: 4px;
+    background-color: #444;
+}

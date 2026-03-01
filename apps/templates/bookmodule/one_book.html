@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <title>Book Details</title>
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="{% static 'qu-icon.jpg' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+<div>
+    <a href="{% url 'books.index' %}">Home</a>
+    <a href="{% url 'books.list_books' %}">List Books</a>
+    <a href="{% url 'books.aboutus' %}">About</a>
+</div>
+
+<h1>Internet & World Wide Web How to Program</h1>
+
+<img src="{% static 'book1.jpg' %}" alt="Book1" width="300" height="300">
+
+<p><strong>Author:</strong> Deitel & Deitel</p>
+<p><strong>Description:</strong> This book introduces web development concepts.</p>
+
+</body>
+</html>
