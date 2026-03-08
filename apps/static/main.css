@@ -1,0 +1,61 @@
+.center{
+text-align:center;
+padding:20px;}
+.box{
+padding:20px;}
+#link1{
+display:block;
+background-color:#9ed9a7;
+text-align:center;
+padding:15px;
+color:red;}
+
+.link2{
+display:block;
+background-color:#555555;
+text-align:center;
+padding:15px;
+color:yellow;}
+.link3{
+display:block;
+background-color:black;
+text-align:center;
+padding:15px;
+color:white;}
+#link1:link{color:red;}
+#link1:visited{color:red;}
+#link1:hover{color:red;}
+#link1:active{color:red;}
+.link2:link{color:yellow;}
+.link2:visited{color:yellow;}
+.link2:hover{color:yellow;}
+.link2:active{color:yellow;}
+.link3:link{color:white;}
+.link3:visited{color:white;}
+.link3:hover{color:white;}
+.link3:active{color:white;}
+.title{
+background-color:#5f9ea0;
+color:white;
+padding:15px;
+font-size:32px;
+}
+
+.main-list{
+    list-style-type: disc;
+}
+
+.main-list ul{
+    list-style-type: circle;
+}
+
+.main-list ol{
+    list-style-type: decimal;
+}
+table{
+border-collapse: collapse;
+}
+
+th, td{
+padding:8px;
+}
