@@ -40,6 +40,36 @@ color:white;
 padding:15px;
 font-size:32px;
 }
+body{
+font-family: Arial;
+}
+
+h1{
+background-color:#e6e8c3;
+color:green;
+padding:10px;
+text-align:left;
+}
+
+.box{
+padding:20px;
+}
+
+a:link{
+color:blue;
+}
+
+a:visited{
+color:purple;
+}
+
+a:hover{
+color:red;
+}
+
+a:active{
+color:green;
+}
 
 .main-list{
     list-style-type: disc;
